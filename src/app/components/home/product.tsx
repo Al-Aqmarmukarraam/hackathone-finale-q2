@@ -87,12 +87,14 @@ const ProductCard = () => {
             <ProductCards
               key={index}
               detailsLink={`/products/${product.id}`}
-              image={urlFor(product.image).url()}
+              image={product.image ? urlFor(product.image).url(): "/public/products"}
               alt={product.heading}
               heading={product.heading}
               department={product.subheading}
-              originalPrice={`$${product.price.originalPrice}`}
-              discountedPrice={`$${product.price.discountedPrice}`}
+              originalPrice={`$${product?.price?.originalPrice ?? "40.00"}`}
+              discountedPrice={`$${product?.price?.discountedPrice ?? "32.00"}`}
+              // originalPrice={`$${(product.price.originalPrice)}`}
+              // discountedPrice={`$${product.price.discountedPrice}`}
             />
           ))}
         </div>

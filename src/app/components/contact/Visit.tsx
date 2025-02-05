@@ -104,7 +104,7 @@ export default function VisitSection() {
         >
           Let’s Talk
         </h2>
-        <button className="w-48 mt-4 text-white font-bold py-2 px-6 rounded-md bg-myBlue hover:text-black">
+        <button className="w-48 mt-4 text-white font-bold py-2 px-6 rounded-md bg-blue-700 hover:text-black">
           Try it free now
         </button>
       </div>

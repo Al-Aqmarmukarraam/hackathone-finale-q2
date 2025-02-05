@@ -28,11 +28,11 @@ const Carousel_2 = () => {
           </p>
           <div className="flex items-center space-x-4">
             <h3
-              className={`${montserrat.className} font-bold text-lg sm:text-xl lg:text-2xl text-white hover:text-blue-500`}
+              className={`${montserrat.className} font-bold text-lg sm:text-xl lg:text-2xl bg-green-700 text-white  hover:text-blue-500`}
             >
               $16.48
             </h3>
-            <button className="w-full sm:w-auto px-6 py-3 text-sm sm:text-base lg:text-lg bg-myGreen text-white rounded-lg hover:text-blue-500">
+            <button className="w-full sm:w-auto px-6 py-3 text-sm sm:text-base lg:text-lg bg-green-900 text-white rounded-lg hover:text-blue-500">
               ADD TO CART
             </button>
           </div>

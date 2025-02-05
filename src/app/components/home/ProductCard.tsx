@@ -33,34 +33,34 @@ const ProductCards = (card: Cards) => {
   return (
     <div className="w-full h-auto pr-0 md:pr-5 lg:pr-5 items-center mx-auto transform transition duration-500 hover:scale-105">
       <Link href={card.detailsLink}>
-        <Image
-          src={urlFor(card.image).url()}
-          alt={card.alt}
+        {/* <Image
+         // src={card.image ? urlFor(card.image).url():"/public/"} 
+          alt={card.alt || "Product image"}
           className="object-cover w-full h-auto md:lg:w-[239px] md:lg:h-[427px]  "
           width={239}
           height={427}
-        />
+        /> */}
         <div className="w-[239px] h-[188px] flex flex-col justify-evenly items-center ">
           <h5
-            className={`${montserrat.className} items-center text-center font-bold text-[16px] text-myDark hover:text-blue-500`}
+            className={`${montserrat.className} items-center text-center font-bold text-[16px] text-blue-950 hover:text-blue-500`}
           >
             {card.heading}
           </h5>
 
           <h3
-            className={`${montserrat.className} items-center text-center font-bold text-[14px] text-myGrey hover:text-blue-500`}
+            className={`${montserrat.className} items-center text-center font-bold text-[14px] text-gray-600 hover:text-blue-500`}
           >
             {card.department}
           </h3>
 
           <div className="w-[108px] h-[34px] flex justify-center space-x-3">
             <h5
-              className={`${montserrat.className} items-center text-center font-bold text-[18px] text-myDarkGreen hover:text-blue-500`}
+              className={`${montserrat.className} items-center text-center font-bold text-[18px] text-green-800 hover:text-blue-500`}
             >
               {card.discountedPrice}
             </h5>
             <h5
-              className={`${montserrat.className} line-through items-center text-center font-bold text-[16px] text-myGrey hover:text-blue-500`}
+              className={`${montserrat.className} line-through items-center text-center font-bold text-[16px] text-gray-600 hover:text-blue-500`}
             >
               {card.originalPrice}
             </h5>

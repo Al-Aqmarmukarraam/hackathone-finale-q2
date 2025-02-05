@@ -11,7 +11,7 @@ const Carousel_3 = () => {
       <div className="w-full h-auto lg:w-[725px] mx-auto items-center pl-5 md:lg:pl-0">
         <Image
           src="/hero-cover-1.png" // Update with your image path
-          alt="Hero Image 2"
+          alt="Hero Image 1"
           width={725}
           height={774}
           className="w-full h-auto object-cover transform transition duration-500 hover:scale-110"
@@ -39,10 +39,10 @@ const Carousel_3 = () => {
         </p>
 
         <div className="flex flex-wrap gap-4">
-          <button className="w-full sm:w-[156px] px-6 py-3 text-sm lg:text-base bg-myGreen text-white rounded-lg text-center hover:text-blue-500">
+          <button className="w-full sm:w-[156px] px-6 py-3 text-sm lg:text-base bg-green-950 text-white rounded-lg text-center hover:text-blue-500">
             BUY NOW
           </button>
-          <button className="w-full sm:w-[156px] px-6 py-3 text-sm lg:text-base bg-white text-myGreen border border-myGreen rounded-lg text-center hover:text-blue-500">
+          <button className="w-full sm:w-[156px] px-6 py-3 text-sm lg:text-base bg-blue-950 text-white border border-blue-950 rounded-lg text-center hover:text-blue-500">
             READ MORE
           </button>
         </div>

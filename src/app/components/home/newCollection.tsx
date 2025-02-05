@@ -33,7 +33,7 @@ const Carousel = () => {
             </h4>
 
             <div className="w-full sm:w-auto">
-              <button className="w-full sm:w-auto bg-myGreen text-white hover:text-green-300 font-bold py-3 px-6 rounded-lg sm:py-2 sm:px-4 md:py-3 md:px-6 lg:py-4 lg:px-8 text-sm sm:text-base md:text-lg lg:text-xl">
+              <button className="w-full sm:w-auto bg-myGreen text-white  bg-green-900 hover:text-cyan-600 font-bold py-3 px-6 rounded-lg sm:py-2 sm:px-4 md:py-3 md:px-6 lg:py-4 lg:px-8 text-sm sm:text-base md:text-lg lg:text-xl">
                 SHOP NOW
               </button>
             </div>
